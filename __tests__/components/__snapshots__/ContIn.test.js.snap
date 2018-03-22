@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items reducer Snapshot render 1`] = `
+<div
+  class="block__wrapper"
+>
+  <div
+    class="menu__wrapper"
+  >
+    <ul>
+      <li
+        class="shadow-alt"
+      >
+        <a
+          href="/contout"
+        >
+          Saved Items
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="form__container shadow"
+  >
+    <div
+      class="alert"
+    >
+       
+    </div>
+    <form
+      class=""
+    >
+      <div
+        class="form-group"
+      >
+        <label
+          class="control-label"
+        >
+          Description
+        </label>
+        <textarea
+          class="form-control"
+          placeholder="Enter Description"
+          rows="10"
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          class="control-label"
+          for="formControlsSelectMultiple"
+        >
+          Select
+        </label>
+         
+        <select
+          class="form-control"
+          id="formControlsSelectMultiple"
+          multiple=""
+        >
+          <option
+            value=""
+          >
+            Select Option
+          </option>
+          <option
+            value="One"
+          >
+            One
+          </option>
+          <option
+            value="Two"
+          >
+            Two
+          </option>
+          <option
+            value="Three"
+          >
+            Three
+          </option>
+          <option
+            value="Four"
+          >
+            Four
+          </option>
+          <option
+            value="Five"
+          >
+            Five
+          </option>
+        </select>
+      </div>
+      <div
+        class="form-button"
+      >
+        <button
+          class="btn btn-default"
+          type="button"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
