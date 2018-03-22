@@ -23,8 +23,8 @@ class PresIn extends Component {
     ReactDOM.findDOMNode(this.refs.text_bar).value    =  "";
     ReactDOM.findDOMNode(this.refs.select_bar).value  =  "";
     this.setState({showMsg: true})
-    // show success message for 3 seconds
-    setTimeout(() => this.setState({showMsg: false}), 3000);
+    // show success message for 2 seconds
+    setTimeout(() => this.setState({showMsg: false}), 2000);
     
   }
   render(){
